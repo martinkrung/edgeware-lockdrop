@@ -86,7 +86,7 @@ contract Lockdrop {
         if (term == Term.SixMo) return now + 60 minutes;
         if (term == Term.TwelveMo) return now + 120 minutes;
         
-        revert();111
+        revert();
     }
 
     /**
