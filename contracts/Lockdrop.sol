@@ -32,7 +32,7 @@ contract Lockdrop {
         TwelveMo
     }
     // Time constants
-    uint256 constant public LOCK_DROP_PERIOD = 1 minutes; // 1 minutes
+    uint256 constant public LOCK_DROP_PERIOD = 3650 days; // ~ 10 years
     uint256 public LOCK_START_TIME;
     uint256 public LOCK_END_TIME;
     // ETH locking events
