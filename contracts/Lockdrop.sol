@@ -82,11 +82,11 @@ contract Lockdrop {
     }
 
     function unlockTimeForTerm(Term term) internal view returns (uint256) {
-        if (term == Term.ThreeMo) return now + 1 minutes;
-        if (term == Term.SixMo) return now + 2 minutes;
-        if (term == Term.TwelveMo) return now + 3 minutes;
+        if (term == Term.ThreeMo) return now + 30 minutes;
+        if (term == Term.SixMo) return now + 60 minutes;
+        if (term == Term.TwelveMo) return now + 120 minutes;
         
-        revert();
+        revert();111
     }
 
     /**
